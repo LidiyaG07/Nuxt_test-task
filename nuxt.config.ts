@@ -4,7 +4,16 @@ export default defineNuxtConfig({
   css: ['./assets/css/main.css'],
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/tailwindcss'],
+    '@nuxtjs/tailwindcss', 
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/color-mode'
+  ],
+  googleFonts: {
+    families: {
+      Oswald: [400, 700]
+    },
+    display: 'swap'
+  },
   tailwindcss: {
     exposeConfig: true
   }

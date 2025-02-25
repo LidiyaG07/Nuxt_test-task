@@ -1,3 +1,13 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Prata&display=swap"); подключение по ссылке */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @layer base {  для локальных файлов шрифта
+  @font-face {
+    font-family: "Inter-bold";
+    src: url("/assets/fonts/Inter-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+  }
+} */
